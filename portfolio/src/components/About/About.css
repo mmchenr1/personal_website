@@ -1,0 +1,18 @@
+.About{
+  background: transparent;
+  min-height: 90vh;
+  display:inline-flex;
+  flex-direction: column;
+  width: 100%;
+  align-items : center;
+  justify-content: center;
+}
+
+.About-me-header{
+  font-size:60px;
+}
+
+.about_role .about_desc{
+  font-size:40px;
+  font-weight: 400;
+}

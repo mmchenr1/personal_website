@@ -1,0 +1,27 @@
+html {
+  /* overflow: hidden; */
+  height: 100%;
+}
+
+body {
+  /* overflow-y: scroll; */
+  height: auto;
+}
+
+.app {
+  justify-content: center;
+  width: 100%;
+  color: #FFF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  background-image: url("/src/assets/download.jpg");
+  background-attachment: fixed;
+}
+
+.content-wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  overflow-y:scroll;
+}

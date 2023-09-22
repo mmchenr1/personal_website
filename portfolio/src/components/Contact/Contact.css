@@ -1,0 +1,9 @@
+.ContactMe {
+  flex-direction: column;
+  background: transparent;
+  min-height: 90vh;
+  display:inline-flex;
+  width: 100%;
+  align-items : center;
+  justify-content: center;
+}
