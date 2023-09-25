@@ -16,6 +16,7 @@ body {
   font-weight: 400;
   background-image: url("/src/assets/download.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .content-wrapper {
@@ -24,4 +25,8 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y:scroll;
+}
+
+.section_title{
+  font-size:60px;
 }

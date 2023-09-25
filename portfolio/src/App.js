@@ -22,7 +22,8 @@ const App = () => {
           <Home id = "Home" className="Home"/>
           <About id = "About" className="About"/>
           <Projects id="Projects" className="Projects"/>
-          <Contact id="ContactMe" className="ContactMe"/>
+          {/* <Contact id="ContactMe" className="ContactMe"/> */}
+          <Skills id="Skills" className="Skills"> </Skills>
         </div>
        
 

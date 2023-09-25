@@ -8,11 +8,41 @@
   justify-content: center;
 }
 
-.About-me-header{
-  font-size:60px;
+.about_text{
+  font-size:20px;
+  font-weight: 400;
+  max-width: 90vh;
+  text-align: center;
 }
 
-.about_role .about_desc{
-  font-size:40px;
-  font-weight: 400;
+.profile_image{
+  padding:30px;
+}
+
+.about_contact_wrapper{
+  padding-top:40px;
+  display:flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+#contact_icon{
+  transform: scale(2);
+  color:white;
+  -webkit-font-smoothing: antialiased;
+}
+
+#contact_icon:hover {
+  color: #60affc;
+  transform: scale(3);
+  transition: all 0.3s;
+}
+
+.profile-image-wrapper{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.spacer{
+  padding-top:100px;
 }

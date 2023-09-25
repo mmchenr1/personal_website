@@ -12,7 +12,9 @@ export const Navigation = () => {
             <button className="Home-Button" id="nav-bar-button" onClick={(e) => scrollTo("Home")}>Home</button>
             <button className="About-Button" id="nav-bar-button" onClick={(e) => scrollTo("About")}>About</button>
             <button className="Projects-Button" id="nav-bar-button" onClick={(e) => scrollTo("Projects")}>Projects</button>
-            <button className="ContactMe-Button" id="nav-bar-button" onClick={(e) => scrollTo("ContactMe")}>ContactMe</button>
+            {/* <button className="ContactMe-Button" id="nav-bar-button" onClick={(e) => scrollTo("ContactMe")}>ContactMe</button> */}
+            <button className="Skills-Button" id="nav-bar-button" onClick={(e) => scrollTo("Skills")}>Skills</button>
+
         </div>
     </div>
   );

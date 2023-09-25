@@ -1,4 +1,4 @@
-.skills__list {
+.skills_list {
   max-width: 450px;
   width: 95%;
   margin: 0 auto;
@@ -7,6 +7,20 @@
   justify-content: center;
 }
 
-.skills__list-item {
+.skills_list-item {
   margin: 0.5em;
+}
+
+.section_title{
+  font-size:60px;
+}
+
+.Skills{
+  background: transparent;
+  min-height: 90vh;
+  display:inline-flex;
+  flex-direction: column;
+  width: 100%;
+  align-items : center;
+  justify-content: center;
 }
