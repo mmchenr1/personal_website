@@ -1,4 +1,5 @@
 .About{
+  margin-top:80px;
   background: transparent;
   min-height: 90vh;
   display:inline-flex;
@@ -41,8 +42,4 @@
 .profile-image-wrapper{
   padding-top:20px;
   padding-bottom:20px;
-}
-
-.spacer{
-  padding-top:100px;
 }

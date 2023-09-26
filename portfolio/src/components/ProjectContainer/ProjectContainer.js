@@ -23,6 +23,8 @@ const ProjectContainer = ({ project }) => (
         href={project.sourceCode}
         aria-label='source code'
         className='link link--icon'
+        id='source_icon'
+        target="_blank"
       >
         <GitHubIcon />
       </a>
@@ -33,9 +35,15 @@ const ProjectContainer = ({ project }) => (
         href={project.livePreview}
         aria-label='live preview'
         className='link link--icon'
+        id='source_icon'
+        target="_blank"
       >
         <LaunchIcon />
       </a>
+    )}
+
+    {project.note && (
+      <text className="note"><i style={{fontSize: "15px", color: "grey", alignSelf:'flex-end'}}>{project.note}</i></text>
     )}
   </div>
 )

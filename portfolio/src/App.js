@@ -5,6 +5,7 @@ import Skills from './components/Skills/Skills'
 import Contact from './components/Contact/Contact'
 import Home from './components/Home/Home'
 import {Navigation} from './components/Navbar/Navigation'
+import { NavOffset } from './components/Navbar/NavOffset'
 import './App.css'
 
 
@@ -18,12 +19,14 @@ const App = () => {
             text1="Contact"
         />
 
-        <div className="content=wrapper">
-          <Home id = "Home" className="Home"/>
-          <About id = "About" className="About"/>
-          <Projects id="Projects" className="Projects"/>
-          {/* <Contact id="ContactMe" className="ContactMe"/> */}
-          <Skills id="Skills" className="Skills"> </Skills>
+        <div className="content-wrapper">
+          <Home id = "page" className="Home"/>
+          <NavOffset/><NavOffset/>
+          <About id = "page" className="About"/>
+          <NavOffset/><NavOffset id="Projects-scroll-spacer"/>
+          <Projects id="page" className="Projects"/>
+          <NavOffset/><NavOffset/>
+          <Skills id="page" className="Skills"> </Skills>
         </div>
        
 

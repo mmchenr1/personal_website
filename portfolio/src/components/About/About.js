@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div id="About" className="About">
       {/* <div className='spacer'></div> */}
-        <div className="section_title">
+        <div id="About-title" className="section_title">
           About me
         </div>
       

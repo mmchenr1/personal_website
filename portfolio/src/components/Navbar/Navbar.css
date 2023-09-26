@@ -22,6 +22,7 @@
 .nav-button-container {
   margin-right: 1.5em;
   display: flex;
+  padding-left: 20px;
 }
 
 #nav-bar-button{
@@ -30,13 +31,22 @@
   font-size: 20;
   font-weight: 400;
   word-wrap: break-word;
+
+  :hover{
+    transform: translateY(-7px);
+  }
 }
+
+#nav-bar-button:hover{
+  transform: translateY(-3px);
+  transition: all 0.6s;
+}
+
 
 @media (max-width: 600px) {
   .nav-button-container {
     display: none;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
     position: fixed;
     inset: 0;
@@ -48,4 +58,46 @@
   #nav-bar-button{
     margin: 0.5em 0;
   }
+}
+
+.nav-bar-offset{
+  height:80px;
+}
+
+.emailme-button-wrapper{
+  color:darkgreen;
+  height: 100%;
+  width: 30ox;
+  align-items: center;
+  border-color: red;
+  align-items: center;
+  position:relative;
+  display:flex;
+  z-index:999;
+  padding-right: 20px;
+}
+
+.EmailMe-Button{
+  opacity: 1 !important;
+  background-color: #EA4C89;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  transition: color 100ms;
+  vertical-align: baseline;
+  touch-action: manipulation;
+}
+
+.EmailMe-Button:hover {
+  background-color: #e9226e;
+  transform: scale(1.2);
+  transition: all 1s;
+  -webkit-transition: all 0.5s ease-in-out;
+
 }

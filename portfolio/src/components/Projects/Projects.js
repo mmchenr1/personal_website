@@ -8,11 +8,12 @@ const Projects = () => {
 
   return (
     <section id='Projects' className='Projects'>
+      <div id="scroll-spacer" style={{height:'150px'}}></div>
       <h2 className='section_title'>Projects</h2>
 
-      <div className='projects__grid'>
+      <div id="proj-grid" className='projects_grid'>
         {projects.map((project) => (
-          <ProjectContainer key={uniqid()} project={project} />
+          <ProjectContainer id="hi" key={uniqid()} project={project} />
         ))}
       </div>
     </section>
