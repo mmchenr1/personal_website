@@ -25,8 +25,8 @@ const About = () => {
         </div>
 
       <div className='about_text'>I'm a full-stack software developer and a current Junior studying Applied Math and Computer Science at Brown University.
-        Currently, I apply my Software development skills as a TA for the Software Engineering and a research assistant working as the primary backend developer on an IoT app called Sherpa. 
-        I'm also on a team of students within Brown Space Engineering who are creating flight software for a satellite called PVDX, which has a grant from NASA to launch in 2026.
+        Currently, I'm working as a Software Engineering TA and research assistant at Brown. My research focuses on backend development for an IoT app called Sherpa. 
+        I'm also working with Brown Space Engineering to create flight software for a satellite called PVDX, which has a grant from NASA to launch in 2026.
         <br/>
         <br/>
         In my free time you can find me
