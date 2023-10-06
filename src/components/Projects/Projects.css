@@ -4,8 +4,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
-  overflow-y:hidden;
+  padding-top: 20px;
 }
+
 
 .Projects{
   background: transparent;

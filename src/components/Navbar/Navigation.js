@@ -18,7 +18,7 @@ export const Navigation = () => {
 
         <div className="emailme-button-wrapper">
             <a
-              href={"mailto:molly_mchenry@brown.edu>"}
+              href={"mailto:molly_mchenry@brown.edu"}
               aria-label='email address'
               className="EmailMe-Button" 
               target="_blank"

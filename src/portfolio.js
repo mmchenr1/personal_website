@@ -68,6 +68,7 @@ const skills = [
   'React Native',
   'Git',
   'JUnit',
+  'MongoDB',
   'Firebase',
   'APIs',
   'Matlab'
