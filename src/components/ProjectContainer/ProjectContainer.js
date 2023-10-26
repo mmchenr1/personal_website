@@ -8,6 +8,8 @@ const ProjectContainer = ({ project }) => (
     <h3>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>
+    
+    <div className="stack-wrapper">
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
@@ -17,6 +19,7 @@ const ProjectContainer = ({ project }) => (
         ))}
       </ul>
     )}
+    </div>
 
     {project.sourceCode && (
       <a
@@ -43,7 +46,9 @@ const ProjectContainer = ({ project }) => (
     )}
 
     {project.note && (
-      <text className="note"><i style={{fontSize: "15px", color: "grey", alignSelf:'flex-end'}}>{project.note}</i></text>
+      <div>
+      <div className="note"><i style={{fontSize: "15px", color: "grey"}}>{project.note}</i></div>
+      </div>
     )}
   </div>
 )

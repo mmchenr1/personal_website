@@ -18,8 +18,8 @@ const projects = [
   {
     name: 'Trek',
     description:
-      'Trek is a web application with the goal of connecting university students when they travel off campus! Get started by creating an account using Google. Now you can make posts updating your friends were you' +
-      're going and the details of your trips, and see what your friends are up to as well. Trek: Great travel with even better company!',
+      "Trek is a social media web application that revolutionizes how university students connect when venturing off campus. Users can share their travel plans, explore exciting destinations, and stay updated on their friends' adventures. " + 
+      "This full-stack web application features a dynamic front-end crafted with TypeScript and React, complemented by a robust Java back-end that communicates with a Firebase database. These elements communicate through an internal API that leverages the Apache Spark framework. The backend also features Trek's personalized recommendation algorithm, which dynamically prioritizes friend posts based on user engagement patterns.",
     stack: ['Java', 'TypeScript', 'React', 'Firebase', 'Spark', 'CSS'],
     sourceCode: 'https://github.com/mmchenr1/Trek-Travel-App',
     // livePreview: 'https://github.com/mmchenr1/Trek-Travel-App',
@@ -40,8 +40,7 @@ const projects = [
   {
     name: 'WeensyOS',
     description:
-      'Wrote OS kernel code that implements virtual memory architecture and system calls for an operating' + 
-      ' system called WeensyOS that supports 3MB of virtual memory on top of 2MB of physical memory',
+      "Designed and implemented a custom OS kernel that features virtual memory architecture and a set of essential system calls. This specialized operating system leverages 3MB of dynamic virtual memory layered atop a 2MB physical memory framework.",
     stack: ['C++'],
     note: 'course assignment: private repo',  },
   {
@@ -58,12 +57,11 @@ const projects = [
 const skills = [
   'Python',
   'Java',
-  'Apache Spark',
   'C/C++',
-  'HTML',
-  'CSS',
   'JavaScript',
   'TypeScript',
+  'HTML',
+  'CSS',
   'React',
   'React Native',
   'Git',
@@ -71,7 +69,8 @@ const skills = [
   'MongoDB',
   'Firebase',
   'APIs',
-  'Matlab'
+  'Matlab',
+  'Apache Spark'
 ]
 
 const contact = {

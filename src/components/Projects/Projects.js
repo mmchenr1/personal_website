@@ -13,7 +13,7 @@ const Projects = () => {
 
       <div id="proj-grid" className='projects_grid'>
         {projects.map((project) => (
-          <ProjectContainer id="hi" key={uniqid()} project={project} />
+          <ProjectContainer className="proj-grid-item" key={uniqid()} project={project} />
         ))}
       </div>
     </section>
